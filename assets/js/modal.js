@@ -4,49 +4,49 @@ var data = {
         "modal":"assets/img/camping-website.jpg",
         "website":"http://andren25.github.io/pages/camping-website/",
         "image":"http://andren25.github.io/assets/img/camping-website.jpg",
-        "file":"http://andren25.github.io/assets/files/CampingWebsite.xd"
+        "file":"https://drive.google.com/file/d/1h9wm2XNK-UKGbVq1fQ3Jj9c4bEbIENKc/view?usp=sharing"
     },
     1:{
         "src":"SpaceDrive",
         "modal":"assets/img/space-drive.jpg",
         "website":"http://andren25.github.io/pages/space-drive/",
         "image":"http://andren25.github.io/assets/img/space-drive.jpg",
-        "file":"http://andren25.github.io/assets/files/SpaceDrive.xd"
+        "file":"https://drive.google.com/file/d/11hmnMJXe90AasUqeIPaE8tYSEdvsL1qG/view?usp=sharing"
     },
     2:{
         "src":"Travel Cream",
         "modal":"assets/img/travel-cream.jpg",
         "website":"http://andren25.github.io/pages/travel-cream/",
         "image":"http://andren25.github.io/assets/img/travel-cream.jpg",
-        "file":"http://andren25.github.io/assets/files/travelcream.psd"
+        "file":"https://drive.google.com/file/d/15v99bPDkEukVC7uGdS36Q5IYnQjun0k4/view?usp=sharing"
     },
     3:{
         "src":"Zenwork",
         "modal":"assets/img/zenwork.jpg",
         "website":"http://andren25.github.io/pages/zenwork/",
         "image":"http://andren25.github.io/assets/img/zenwork.jpg",
-        "file":"http://andren25.github.io/assets/files/zenwork.psd"
+        "file":"https://drive.google.com/file/d/1NAqYFmoGKLvUC87ppxtwYyaoK8N2IMYz/view?usp=sharing"
     },
     4:{
         "src":"Marketing",
         "modal":"assets/img/marketing.jpg",
         "website":"http://andren25.github.io/pages/marketing/",
         "image":"http://andren25.github.io/assets/img/marketing.jpg",
-        "file":"http://andren25.github.io/assets/files/FREE makreting landing page.xd"
+        "file":"https://drive.google.com/file/d/13WyudbuNy0xWp4OTCvk80ajiMgIfbLH9/view?usp=sharing"
     },
     5:{
         "src":"Fashion",
         "modal":"assets/img/fashion.jpg",
         "website":"http://andren25.github.io/pages/fashion/",
         "image":"http://andren25.github.io/assets/img/fashion.jpg",
-        "file":"http://andren25.github.io/assets/files/Fashion E-commerce Website Home Page PSD.psd"
+        "file":"https://drive.google.com/file/d/1QMOnYLb00CSWPcq-mieoUnL-5YGNCl7u/view?usp=sharing"
     },
     6:{
         "src":"Clubin",
         "modal":"assets/img/clubin.jpg",
         "website":"http://andren25.github.io/pages/clubin/",
         "image":"http://andren25.github.io/assets/img/clubin.jpg",
-        "file":"http://andren25.github.io/assets/files/Clubin.xd"
+        "file":"https://drive.google.com/file/d/1-ez7bV2453fX3uDQ2mn-c8TMw6yOSVua/view?usp=sharing"
     }
 };
 var p = document.getElementsByClassName('works-posts')[0];

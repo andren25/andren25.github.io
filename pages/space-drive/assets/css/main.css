@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header-sm-ctn{
+    height:68px;
+    position:relative;
+}
+.header-sm-ctn::before{
+    content:'';
+    width:100%;
+    background-image:url('../img/header.png');
+    height:2027px;
+    position:absolute;
+    z-index:-1;
+    margin-left:-1px;
+}
+.header-sm-ctn::after{
+    content:'';
+    width:calc(100% - 2px);
+    height:68px;
+    display:block;
+    position:absolute;
+    transform:translateY(-67px);
+    background-color:rgba(255, 255, 255, 0.02);
+    border-bottom:1px solid rgba(255, 255, 255, 0.12);
+}
+.header-sm{
+    height:100%;
+    width:1587px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-sm__contact{
+    width:423px;
+    height:27px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-sm-mail{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+}
+.header-sm__contact-div{
+    width:1px;
+    height:20px;
+    background-color:white;
+}
+.header-sm-phone{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+}
+.header-sm__support{
+    width:287px;
+    height:22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-sm__support > a{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+    text-decoration:none;
+}
+.header-ctn{
+    height:53px;
+    margin-top:52px;
+}
+.header{
+    height:100%;
+    width:1579px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.header-logo{
+    font-family:'Museo Slab',sans-serif;
+    font-size:40px;
+    color:white;
+}
+.header-nav{
+    width:752px;
+    height:28px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.header-nav > a{
+    text-decoration:none;
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    font-weight:500;
+    color:white;
+}
+.hero-ctn{
+    height:849px;
+    margin-top:24px;
+}
+.hero{
+    height:100%;
+    width:1577px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+}
+.hero-info{
+    width:506px;
+    height:472px;
+}
+.hero-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:63px;
+    color:white;
+    display:block;
+    margin-bottom:46px;
+}
+.hero-text{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#e6e6e6;
+    display:block;
+    margin-bottom:46px;
+}
+.hero-btn{
+    width:201px;
+    height:65px;
+    border-radius:33px;
+    background-color:#d55e54;
+    border:none;
+    outline:none;
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:white;
+    text-transform:uppercase;
+}
+.hero-btn:hover{
+    cursor:pointer;
+}
+.search-ctn{
+    height:317px;
+}
+.search-wrapper{
+    width:1047px;
+    height:317px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.search-title{
+    font-family:'Museo Lab',sans-serif;
+    font-size:63px;
+    color:white;
+    margin-bottom:78px;
+}
+.search-input{
+    height:94px;
+    width:1047px;
+    display:flex;
+    flex-direction:row;
+    margin-bottom:44px;
+    border-radius:47px;
+    background-color:#fff;
+    position:relative;
+}
+.search-input__search{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:rgb(0, 0, 0, 0.5);
+    width:300px;
+    display:block;
+    height:31px;
+    position:absolute;
+    top:31px;
+    left:35px;
+}
+.search-input__com{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#000;
+    width:300px;
+    display:block;
+    height:31px;
+    position:absolute;
+    top:31px;
+    left:704px;
+}
+.search-input > input{
+    width:827px;
+    height:100%;
+    border-radius:47px 0px 0px 47px;
+    display:flex;
+    border:none;
+    outline:none;
+    padding-left:35px;
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:rgb(0, 0, 0, 0.5);
+}
+.search-btn{
+    width:220px;
+    height:94px;
+    border-radius:47px;
+    border:none;
+    outline:none;
+    background-image:url('../img/search-btn.png');
+    background-size:cover;
+    font-family:'Poppins',sans-serif;
+    font-size:24px;
+    font-weight:700;
+    color:white;
+    position:relative;
+    z-index:1;
+}
+.search-btn:hover{
+    cursor:pointer;
+}
+.domains-wrapper{
+    height:31px;
+    width:783px;
+    display:flex;
+    justify-content:space-between;
+}
+.domains-wrapper > span{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:white;
+}
+.sample-services-ctn{
+    height:321px;
+    margin-top:177px;
+}
+.sample-services{
+    width:1577px;
+    margin:0 auto;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.sample-services-card{
+    background-color:white;
+    width:453px;
+    height:321px;
+    border-radius:25px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.sample-services__card-icon{
+    margin-top:35px;
+    margin-bottom:18px;
+}
+.sample-services__card-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:23px;
+    color:#222323;
+    margin-bottom:23px;
+}
+.sample-services__card-text{
+    font-family:'Poppins',sans-serif;
+    font-size:16px;
+    color:#606060;
+    text-align:center;
+    width:344px;
+}
+.choose-us-ctn{
+    height:839px;
+    margin-top:166px;
+    background-image:url('../img/choose-us.png');
+    display:inline-block;
+    width:100%;
+}
+.choose-us{
+    height:553px;
+    width:1578px;
+    margin:auto;
+    margin-top:139px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.choose-us-info{
+    width:743px;
+    height:100%;
+}
+.choose-us-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:50px;
+    color:white;
+    margin-bottom:39px;
+}
+.choose-us-text > span{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    margin-bottom:48px;
+    display:block;
+}
+.choose-us-btn{
+    width:182px;
+    height:59px;
+    border-radius:33px;
+    background-color:#d8d8d8;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:'Poppins',sans-serif;
+    font-size:17px;
+    font-weight:500;
+    color:white;
+    opacity:.29;
+    position:relative;
+    margin-top:58px;
+}
+.services-info-ctn{
+    height:168px;
+    margin-top:211px;
+}
+.services-info{
+    width:770px;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.services-info-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:46px;
+    color:#6b3c96;
+    text-align:center;
+}
+.services-info-text{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#4e4e4e;
+    text-align:center;
+}
+.services-ctn{
+    height:918px;
+    margin-top:82px;
+}
+.services{
+    width:1577px;
+    height:100%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    justify-content:space-between;
+}
+.services-card{
+    width:452px;
+    height:410px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+}
+.services-card-title{
+    font-family:'Poppins',sans-serif;
+    font-size:34px;
+    font-weight:500;
+    color:#393743;
+}
+.services-card-text{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:#4e4e4e;
+}
+.secure-ctn{
+    height:1777px;
+    margin-top:217px;
+    background-image:url('../img/secure.png');
+    display:inline-block;
+    width:100%;
+}
+.secure-service-ctn{
+    height:675px;
+    margin-top:157px;
+}
+.secure-service{
+    width:1430px;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.secure-service__info{
+    width:667px;
+    height:520px;
+}
+.secure-service__title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:46px;
+    color:white;
+}
+.secure-service__text{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:39px;
+    margin-bottom:35px;
+}
+.secure-service__check{
+    margin-bottom:28px;
+}
+.secure-service__check > span{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:24px;
+    margin-left:23px;
+    display:inline-block;
+}
+.secure-service__info > a{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:500;
+    text-decoration:none;
+}
+.secure-domain-ctn{
+    height:675px;
+    margin-top:112px;
+    display:inline-block;
+    width:100%;
+}
+.secure-domain{
+    width:1430px;
+    margin:0 auto;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+.secure-domain__info{
+    width:667px;
+    height:520px;
+}
+.secure-domain-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:46px;
+    color:white;
+}
+.secure-domain-text{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:39px;
+    margin-bottom:35px;
+}
+.secure-domain__check{
+    margin-bottom:28px;
+}
+.secure-domain__check > span{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    margin-top:24px;
+    margin-left:23px;
+    display:inline-block;
+}
+.secure-domain__info > a{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:500;
+    text-decoration:none;
+}
+.plan-ctn{
+    height:1213px;
+    background-image:url('../img/plan.png');
+    display:inline-block;
+    width:100%;
+}
+.plan-info-ctn{
+    height:155px;
+    margin-top:158px;
+}
+.plan-info{
+    width:667px;
+    height:100%;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.plan-info-title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:46px;
+    color:white;
+    text-align:center;
+}
+.plan-info-text{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:white;
+    text-align:center;
+}
+.plan-prices-ctn{
+    height:649px;
+    margin-top:85px;
+}
+.plan-prices{
+    width:1430px;
+    margin:0 auto;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.plan-prices__card{
+    border:1px solid #000;
+    width:403px;
+    height:649px;
+    border-radius:20px 20px 61px 20px;
+    padding-left:100px;
+    padding-top:86px;
+    padding-right:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.plan-prices__card-title{
+    font-family:'Poppins',sans-serif;
+    font-size:24px;
+    font-weight:500;
+    color:#706a93;
+    text-transform:uppercase;
+    margin-bottom:35px;
+}
+.plan-prices__card-value{
+    font-family:'Museo Slab',sans-serif;
+    font-size:64px;
+    color:#151010;
+    display:block;
+    height:85px;
+    padding-top:7px;
+    position:relative;
+    width:107px;
+    margin-bottom:35px;
+}
+.plan-prices__card-value > sup{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    font-weight:700;
+    color:#706a93;
+    text-transform:uppercase;
+    position:absolute;
+    transform:translateY(-5px);
+}
+.plan-prices__card-product{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#5f6874;
+    margin-bottom:27px;
+}
+.plan-prices__card-price{
+    font-family:'Poppins',sans-serif;
+    font-size:25px;
+    font-weight:500;
+    color:#151010;
+}
+.plan-prices__card:nth-of-type(1){
+    background-image:url('../img/card-1.png');
+}
+.plan-prices__card:nth-of-type(2){
+    background-image:url('../img/card-2.png');
+}
+.plan-prices__card:nth-of-type(3){
+    background-image:url('../img/card-3.png');
+}
+.plan-prices__card::before{
+    content:'';
+    height:100%;
+    display:block;
+    position:absolute;
+    z-index:-1;
+    border-radius:20px 20px 61px 20px;
+    background-image:url('../img/plan-basic.png');
+    background-repeat:no-repeat;
+}
+.footer-ctn{
+    height:662px;
+    background-color:#1b1543;
+    display:inline-block;
+    width:100%;
+}
+.footer{
+    width:1765px;
+    height:427px;
+    margin:0 auto;
+    margin-top:98px;
+}
+.footer-columns{
+    height:274px;
+    display:flex;
+}
+.footer-column-1{
+    width:260px;
+    height:179px;
+    margin-right:169px;
+}
+.footer-column-1__title{
+    font-family:'Museo Slab',sans-serif;
+    font-size:30px;
+    color:#fff;
+    display:block;
+}
+.footer-column-1__text{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#fff;
+    margin-top:28px;
+    display:block;
+}
+.footer-column-2{
+    width:140px;
+    height:100%;
+    margin-right:165px;
+}
+.footer-column__title{
+    font-family:'Poppins',sans-serif;
+    font-weight:700;
+    font-size:24px;
+    color:#fff;
+    display:block;
+}
+.footer-column__link{
+    font-family:'Poppins',sans-serif;
+    font-size:22px;
+    color:#fff;
+    display:block;
+    margin-top:14px;
+}
+.footer-column-3{
+    width:182px;
+    height:184px;
+    margin-right:169px;
+}
+.footer-column-4{
+    width:176px;
+    height:184px;
+    margin-right:169px;
+}
+.footer-column-5{
+    width:331px;
+    height:127px;
+}
+.footer-column__form{
+    border:1px solid #000;
+    margin-top:51px;
+    height:48px;
+    border-radius:4px;
+    position:relative;
+    background-color:#fff;
+}
+.footer-column__form > input{
+    width:225px;
+    height:100%;
+    border-radius:4px 0px 0px 4px;
+    border:none;
+    outline:none;
+    position:absolute;
+}
+.footer-column__form > span{
+    position:absolute;
+    font-family:'Roboto',sans-serif;
+    font-size:15px;
+    color:#a8a8a8;
+    top:14px;
+    left:18px;
+}
+.footer-column-btn{
+    border-radius:4px;
+    background-color:#3ecced;
+    width:118px;
+    height:48px;
+    position:absolute;
+    right:0;
+    border:none;
+    height:100%;
+    font-family:'Segoe UI',sans-serif;
+    font-size:18px;
+    font-weight:700;
+    color:#fff;
+    cursor:pointer;
+    outline:none;
+}
+.footer-div{
+    margin-top:78px;
+    height:1px;
+    background-color:#fff;
+    opacity:0.3;
+}
+.footer-info{
+    height:28px;
+    margin-top:47px;
+    display:flex;
+    justify-content:space-between;
+}
+.footer-copyright{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:#fff;
+}
+.footer-privacy-terms{
+    width:351px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-privacy-terms > span{
+    font-family:'Poppins',sans-serif;
+    font-size:20px;
+    color:#fff;
+}

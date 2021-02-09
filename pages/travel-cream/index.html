@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Cream</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="header-ctn">
+        <div class="header">
+            <div class="header-logo-nav">
+                <span class="header-logo">
+                    TravelCream
+                </span>
+                <nav class="header-nav">
+                    <a href="#">Flights</a>
+                    <a href="#">Hotels</a>
+                    <a href="#">Trips</a>
+                    <a href="#">Activity</a>
+                    <a href="#">Deals</a>
+                </nav>
+            </div>
+            <button class="header-btn">
+                Login
+            </button>
+            <img src="assets/img/menu.png">
+        </div>
+    </header>
+    <section class="hero-text-ctn">
+        <div class="hero-text">
+            <span class="hero-text__bg">
+                Do you want to visit Paris ?
+            </span>
+            <span class="hero-text__sm">
+                Why not
+            </span>
+        </div>
+    </section>
+    <section class="hero-search-ctn">
+        <div class="hero-search">
+            <input type="text" class="hero-search__input--from" value="Where are you leaving from ?">
+            <input type="text" class="hero-search__input--to" value="Where do you want to go ?">
+            <input type="text" class="hero-search__input--date" value="Date">
+            <button class="hero-search-btn">
+                Search
+            </button>
+        </div>
+    </section>
+    <section class="flights-ctn">
+        <div class="flights">
+            <div class="flights-header">
+                <span class="flights-title">
+                    Flights
+                </span>
+                <div class="flights-tabs">
+                    <span class="flight-tab">
+                        Non stop
+                    </span>
+                    <span class="flight-tab">
+                        Best Price
+                    </span>
+                    <span class="flight-tab">
+                        Airline
+                    </span>
+                    <span class="flight-tab">
+                        Schedule
+                    </span>
+                </div>
+            </div>
+            <div class="flights-labels">
+                <div class="flights-labels__id-wrapper">
+                    <span class="flights-labels__id">
+                        Airline
+                    </span>
+                </div>
+                <div class="flights-labels__info-wrapper">
+                    <span class="flights-labels__info">
+                        Date
+                    </span>
+                    <span class="flights-labels__info">
+                        Departure
+                    </span>
+                    <span class="flights-labels__info">
+                        Arrival
+                    </span>
+                    <span class="flights-labels__info">
+                        Time
+                    </span>
+                </div>
+                <div class="flights-labels__price-wrapper">
+                    <span class="flights-labels__price">
+                        Price
+                    </span>
+                </div>
+            </div>
+            <div class="flights-post">
+                <div class="flights-post-wrapper">
+                    <div class="flights-post__airline-wrapper">
+                        <img src="assets/img/vueling.png" class="flights-post__airline--img">
+                        <div class="flights-post__airline-info">
+                            <span class="flights-post__airline-info--name">Vueling</span>
+                            <span class="flights-post__airline-info--code">VO1367</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__info-wrapper">
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">03/11/2017</span>
+                            <span class="flights-post__info--faded">In 3 days</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Paris (CDG)</span>
+                            <span class="flights-post__info--faded">07:15</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Miami</span>
+                            <span class="flights-post__info--faded">5:00</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">08:45</span>
+                            <span class="flights-post__info--faded">CDG – MIA</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__price-wrapper">
+                        <button class="flights-post__btn">
+                            870 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flights-post">
+                <div class="flights-post-wrapper">
+                    <div class="flights-post__airline-wrapper">
+                        <img src="assets/img/air-france.png" class="flights-post__airline--img">
+                        <div class="flights-post__airline-info">
+                            <span class="flights-post__airline-info--name">Air France</span>
+                            <span class="flights-post__airline-info--code">AF90</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__info-wrapper">
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">03/11/2017</span>
+                            <span class="flights-post__info--faded">In 3 days</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Paris (CDG)</span>
+                            <span class="flights-post__info--faded">07:15</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Miami</span>
+                            <span class="flights-post__info--faded">5:00</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">08:45</span>
+                            <span class="flights-post__info--faded">CDG – MIA</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__price-wrapper">
+                        <button class="flights-post__btn">
+                            1023 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flights-post">
+                <div class="flights-post-wrapper">
+                    <div class="flights-post__airline-wrapper">
+                        <img src="assets/img/american.png" class="flights-post__airline--img">
+                        <div class="flights-post__airline-info">
+                            <span class="flights-post__airline-info--name">American</span>
+                            <span class="flights-post__airline-info--code">AA63</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__info-wrapper">
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">03/11/2017</span>
+                            <span class="flights-post__info--faded">In 3 days</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Paris (CDG)</span>
+                            <span class="flights-post__info--faded">07:15</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Miami</span>
+                            <span class="flights-post__info--faded">5:00</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">08:45</span>
+                            <span class="flights-post__info--faded">CDG – MIA</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__price-wrapper">
+                        <button class="flights-post__btn">
+                            980 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flights-post">
+                <div class="flights-post-wrapper">
+                    <div class="flights-post__airline-wrapper">
+                        <img src="assets/img/delta.png" class="flights-post__airline--img">
+                        <div class="flights-post__airline-info">
+                            <span class="flights-post__airline-info--name">Delta</span>
+                            <span class="flights-post__airline-info--code">DL405</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__info-wrapper">
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">03/11/2017</span>
+                            <span class="flights-post__info--faded">In 3 days</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Paris (CDG)</span>
+                            <span class="flights-post__info--faded">07:15</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Miami</span>
+                            <span class="flights-post__info--faded">5:00</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">08:45</span>
+                            <span class="flights-post__info--faded">CDG – MIA</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__price-wrapper">
+                        <button class="flights-post__btn">
+                            1340 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flights-post">
+                <div class="flights-post-wrapper">
+                    <div class="flights-post__airline-wrapper">
+                        <img src="assets/img/transavia.png" class="flights-post__airline--img">
+                        <div class="flights-post__airline-info">
+                            <span class="flights-post__airline-info--name">Transavia</span>
+                            <span class="flights-post__airline-info--code">T04330</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__info-wrapper">
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">03/11/2017</span>
+                            <span class="flights-post__info--faded">In 3 days</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Paris (CDG)</span>
+                            <span class="flights-post__info--faded">07:15</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">Miami</span>
+                            <span class="flights-post__info--faded">5:00</span>
+                        </div>
+                        <div class="flights-post__info">
+                            <span class="flights-post__info--highlighted">08:45</span>
+                            <span class="flights-post__info--faded">CDG – MIA</span>
+                        </div>
+                    </div>
+                    <div class="flights-post__price-wrapper">
+                        <button class="flights-post__btn">
+                            930 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flights-link-wrapper">
+                <a href="#" class="flights-link">See all flights</a>
+            </div>
+        </div>
+    </section>
+    <section class="hotels-ctn">
+        <div class="hotels">
+            <div class="hotels-info-wrapper">
+                <span class="hotels-title">
+                    Hotels
+                </span>
+                <div class="hotels-tabs">
+                    <span class="hotels-tab hotels-tab-highlighted">
+                        Best Price
+                    </span>
+                    <span class="hotels-tab">
+                        Distance
+                    </span>
+                </div>
+            </div>
+            <div class="hotels-cards-wrapper">
+                <div class="hotels-card">
+                    <img src="assets/img/card-1.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            Hôtel Paris Ouest Achères
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                12,3 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            30 $
+                        </button>
+                    </div>
+                </div>
+                <div class="hotels-card">
+                    <img src="assets/img/card-2.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            L'Hôtel du Collectionneur
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                9,8 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            38 $
+                        </button>
+                    </div>
+                </div>
+                <div class="hotels-card">
+                    <img src="assets/img/card-3.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            Hôtel Eiffel Seine
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                17,6 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            42 $
+                        </button>
+                    </div>
+                </div>
+                <div class="hotels-card">
+                    <img src="assets/img/card-4.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            Hôtel Mademoiselle
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                23,2 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            46 $
+                        </button>
+                    </div>
+                </div>
+                <div class="hotels-card">
+                    <img src="assets/img/card-5.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            Hôtel Paris Ouest Achères
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                10,7 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            52 $
+                        </button>
+                    </div>
+                </div>
+                <div class="hotels-card">
+                    <img src="assets/img/card-6.png" class="hotels-card__img">
+                    <div class="hotels-card__info">
+                        <span class="hotels-card__title">
+                            Villa Royale Montsouris 
+                        </span>
+                        <div class="hotels-card__faded">
+                            <span class="hotels-card__km">
+                                14,8 km
+                            </span>
+                            <div class="hotels-card__wi-fi">
+                                Free Wi-Fi
+                            </div>
+                        </div>
+                        <button class="hotels-card__btn">
+                            56 $
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hotels-link-wrapper">
+                <a href="#" class="hotels-link">See all hotels</a>
+            </div>
+        </div>
+    </section>
+    <section class="attractions-ctn">
+        <div class="attractions">
+            <div class="attractions-info">
+                <span class="attractions-title">
+                    Attractions
+                </span>
+                <div class="attractions-tabs">
+                    <span class="attractions-tab attractions-tab-highlighted">All</span>
+                    <span class="attractions-tab">Shoppings</span>
+                    <span class="attractions-tab">Shows</span>
+                    <span class="attractions-tab">Parks</span>
+                    <span class="attractions-tab">Circuits</span>
+                    <span class="attractions-tab">Museums</span>
+                    <span class="attractions-tab">Monuments</span>
+                </div>
+            </div>
+            <div class="attractions-images">
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/eiffel-tower.png" class="attractions-img">
+                </div>
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/louvres.png" class="attractions-img">
+                </div>
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/notre-dame.png" class="attractions-img">
+                </div>
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/forum-des-halles.png" class="attractions-img">
+                </div>
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/arc-de-triomphe.png" class="attractions-img">
+                </div>
+                <div class="attractions-img-wrapper">
+                    <img src="assets/img/sacre-coeur.png" class="attractions-img">
+                </div>
+            </div>
+            <div class="attractions-link-wrapper">
+                <a href="#" class="attractions-link">See all attractions</a>
+            </div>
+        </div>
+    </section>
+    <section class="trips-ctn">
+        <div class="trips">
+            <div class="trips-info">
+                <span class="trips-title">
+                    Trips
+                </span>
+                <div class="trips-tabs">
+                    <span class="trips-tab trips-tab-highlighted">Best Trips</span>
+                    <span class="trips-tab">Popularity</span>
+                </div>
+            </div>
+            <div class="trips-card">
+                <img src="assets/img/trips-img-1.png" class="trips-card__img">
+                <div class="trips-card__ctt-wrapper">
+                    <span class="trips-card__title">
+                        Accès prioritaire au sommet de la tour Eiffel et hôte
+                    </span>
+                    <span class="trips-card__text">
+                        Avec ce billet coupe-file pour la tour Eiffel, profitez de la seule entrée prioritaire à la tour qui comprend un guide et des commentaires, vous offrant une visite sans encombre de l'un des monuments les plus visités au monde. Accompagné de votre guide depuis l'extérieur de l'entrée principale jusqu'au deuxième étage, vous profiterez d'une entrée détendue à la tour Eiffel avec suffisamment de temps libre pour flâner. 
+                    </span>
+                </div>
+            </div>
+            <div class="trips-card">
+                <img src="assets/img/trips-img-2.png" class="trips-card__img">
+                <div class="trips-card__ctt-wrapper">
+                    <span class="trips-card__title">
+                        Croisière sur la Seine de 3 heures avec les Bateaux-Mouches
+                    </span>
+                    <span class="trips-card__text">
+                        Découvrez Paris depuis l'eau lors d'une croisière de 3 heures sur la Seine à bord des emblématiques Bateaux-Mouches, avec dîner inclus. Vous pourrez admirer l’élégante architecture de la ville toute illuminée pour la soirée tandis que vous passerez à côté de monuments tels que la cathédrale Notre-Dame et la Tour Eiffel. Au moment de la réservation, choisissez le menu Prestige ou Excellence.
+                    </span>
+                </div>
+            </div>
+            <div class="trips-card">
+                <img src="assets/img/trips-img-3.png" class="trips-card__img">
+                <div class="trips-card__ctt-wrapper">
+                    <span class="trips-card__title">
+                        Billet d'entrée au Musée du Louvre avec présentation par un guide
+                    </span>
+                    <span class="trips-card__text">
+                        À un point de rencontre au centre de Paris, rencontrez le fournisseur de billet local, qui vous guidera devant la ligne d'entrée au Musée du Louvre pour un accès au musée, une des attractions les plus populaires de la ville. Explorez à votre guise l'art et d'autres arts qui vous intéressent. La cerise sur le gâteau est, bien entendu, la Joconde de Léonard de Vinci mais il y a de nombreux trésors à découvrir.
+                    </span>
+                </div>
+            </div>
+            <div class="trips-link-wrapper">
+                <span class="trips-link">See all Trips</span>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-ctn">
+        <div class="footer">
+            <div class="footer-titles">
+                <span class="footer-title">Cities</span>
+                <span class="footer-title">Explore</span>
+                <span class="footer-title">About us</span>
+                <span class="footer-title">Contact</span>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links__cities">
+                    <a href="#" class="footer-link">Paris</a>
+                    <a href="#" class="footer-link">Miami</a>
+                    <a href="#" class="footer-link">London</a>
+                    <a href="#" class="footer-link">Madrid</a>
+                    <a href="#" class="footer-link">Tokyo</a>
+                    <a href="#" class="footer-link">Pekin</a>
+                </div>
+                <div class="footer-links__explore">
+                    <a href="#" class="footer-link">Register</a>
+                    <a href="#" class="footer-link">Login</a>
+                    <a href="#" class="footer-link">Assistance</a>
+                    <a href="#" class="footer-link">ECO</a>
+                </div>
+                <div class="footer-links__about-us">
+                    <a href="#" class="footer-link">About TravelCream</a>
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Blog</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Usage</a>
+                </div>
+                <div class="footer-links__contact">
+                    <a href="#" class="footer-link">Feel free to get in touch via email:</a>
+                    <a href="#" class="footer-link">support@travelcream.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

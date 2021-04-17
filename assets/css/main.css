@@ -23,7 +23,7 @@
     position:relative;
 }
 .hero-info{
-    width:700px;
+    width:800px;
     opacity:1;
     color:white;
     font-family:'Open Sans',sans-serif;
@@ -60,7 +60,7 @@
 }
 .hero-info > button{
     margin-top:20px;
-    width:150px;
+    width:250px;
     height:50px;
     background-color:transparent;
     color:white;

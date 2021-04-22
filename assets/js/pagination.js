@@ -11,36 +11,36 @@ function paginationBtn(arr,size = 5){
 
 function fillPosts(){
     var initial = (currentPage * 6) - 6;
-    var elms = document.getElementsByClassName('works-posts')[0].childElementCount;
+    var elms = document.getElementsByClassName('m-works-posts')[0].childElementCount;
     
     if(currentPage == 1){
         for(var i=0;i<elms;i++){
             if(i >= 6)
-                document.getElementsByClassName('works-post')[i].style.display = 'none';
+                document.getElementsByClassName('o-works-post')[i].style.display = 'none';
             else
-            document.getElementsByClassName('works-post')[i].style.display = 'block';
+            document.getElementsByClassName('o-works-post')[i].style.display = 'block';
         }
     }
     if(currentPage > 1){
         for(var i=0;i<elms;i++){
-            document.getElementsByClassName('works-post')[i].style.display = 'none';
+            document.getElementsByClassName('o-works-post')[i].style.display = 'none';
         }
         for(var i=initial;i<=6;i++){
-            document.getElementsByClassName('works-post')[i].style.display = 'block';
+            document.getElementsByClassName('o-works-post')[i].style.display = 'block';
         }
     }
 }
 
 fillPosts();
 
-document.getElementsByClassName('works-pagination__previous')[0].addEventListener('click',()=>{
+document.getElementsByClassName('c-works-pagination-previous')[0].addEventListener('click',()=>{
     if(currentPage > 1){
         currentPage = currentPage - 1;
         fillPosts();
     }
 });
 
-document.getElementsByClassName('works-pagination__next')[0].addEventListener('click',()=>{
+document.getElementsByClassName('c-works-pagination-next')[0].addEventListener('click',()=>{
     currentPage = currentPage + 1;
     fillPosts();
 });

@@ -49,20 +49,20 @@ var data = {
         "file":"https://drive.google.com/file/d/1-ez7bV2453fX3uDQ2mn-c8TMw6yOSVua/view?usp=sharing"
     }
 };
-var p = document.getElementsByClassName('works-posts')[0];
+var p = document.getElementsByClassName('m-works-posts')[0];
 for(var i=0,len=p.children.length;i<len;i++){
     (function(index){
         p.children[i].onclick = function(){
-            document.getElementsByClassName('modal')[0].style.display = 'flex';
-            document.getElementsByClassName('modal-image-content')[0].src = data[index].modal;
+            document.getElementsByClassName('m-modal')[0].style.display = 'flex';
+            document.getElementsByClassName('c-modal-img-content')[0].src = data[index].modal;
             document.getElementsByClassName('modal-link__website')[0].setAttribute('href',data[index].website);
-            document.getElementsByClassName('modal-links__name')[0].innerHTML = data[index].src;
+            document.getElementsByClassName('c-modal-links-name')[0].innerHTML = data[index].src;
             document.getElementsByClassName('modal-img__website')[0].setAttribute('href',data[index].image);
             document.getElementsByClassName('modal-file__website')[0].setAttribute('href',data[index].file);
         }
     })(i);
 }
 
-document.getElementsByClassName('modal-exit')[0].addEventListener('click',()=>{
-    document.getElementsByClassName('modal')[0].style.display = 'none';
+document.getElementsByClassName('c-modal-exit')[0].addEventListener('click',()=>{
+    document.getElementsByClassName('m-modal')[0].style.display = 'none';
 });
